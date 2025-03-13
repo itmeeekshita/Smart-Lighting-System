@@ -1,10 +1,10 @@
 # Smart-Lighting-System
-#Project Overview
+# Project Overview
 This project demonstrates a simple yet effective smart lighting system that combines an LDR (Light Dependent Resistor) and a PIR (Passive Infrared) motion sensor to control a bulb. The system ensures energy efficiency by turning on the bulb only when motion is detected and the ambient light level is below a certain threshold. This smart lighting solution is ideal for use in corridors, rooms, or outdoor areas where automatic lighting control is required.
 
 The code provided is written in Arduino IDE and uses basic electronic components like an LDR, PIR sensor, and an LED bulb (or relay-controlled bulb). It is designed to be beginner-friendly while showcasing practical applications of sensors in IoT-based systems.
 
-##Features
+## Features
 Motion Detection : The PIR sensor detects human movement in its range.
 Ambient Light Sensing : The LDR measures the ambient light intensity.
 Smart Control Logic : The bulb turns on only if:
@@ -12,7 +12,7 @@ Motion is detected AND
 The ambient light level is above a defined threshold (Frequency).
 Serial Monitoring : Real-time data from the sensors is displayed on the Serial Monitor for debugging and monitoring purposes.
 
-##Components Used
+## Components Used
 The following components are used in this project:
 Arduino Board (e.g., Arduino Uno)
 LDR (Light Dependent Resistor) : To measure ambient light levels.
@@ -23,13 +23,13 @@ Resistors :
 Appropriate resistors for the PIR sensor (if needed).
 Breadboard and Jumper Wires : For connections.
 
-##Circuit Diagram
+## Circuit Diagram
 Below is the circuit diagram for the project. It illustrates how the components are connected to the Arduino board:
 
 
 
 
-##How It Works
+## How It Works
 PIR Sensor :
 Detects motion and outputs a digital signal (HIGH or LOW) to the Arduino.
 When motion is detected, the output is HIGH.
@@ -65,7 +65,7 @@ Final Working Model :
 
 
 
-Applications
+## Applications
 Home Automation : Automatically turn on lights in hallways, bathrooms, or basements.
 Security Systems : Illuminate areas when motion is detected at night.
 Energy Saving : Prevent unnecessary power consumption by ensuring lights are only on when needed.
