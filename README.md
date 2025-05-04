@@ -14,13 +14,13 @@ Serial Monitoring : Real-time data from the sensors is displayed on the Serial M
 
 ## Components Used
 The following components are used in this project:<br>
-   > Arduino Board (e.g., Arduino Uno)
-   > LDR (Light Dependent Resistor) : To measure ambient light levels.
-   > PIR Sensor : To detect motion.
-   > LED Bulb or Relay Module : Acts as the bulb controlled by the system.
-   > Resistors : 10kΩ resistor for the LDR voltage divider circuit.
+   > Arduino Board (e.g., Arduino Uno)  
+   > LDR (Light Dependent Resistor) : To measure ambient light levels.  
+   > PIR Sensor : To detect motion.  
+   > LED Bulb or Relay Module : Acts as the bulb controlled by the system.  
+   > Resistors : 10kΩ resistor for the LDR voltage divider circuit.  
    > Appropriate resistors for the PIR sensor (if needed).
-   > Breadboard and Jumper Wires : For connections.
+   > Breadboard and Jumper Wires : For connections.  
 
 ## Circuit Diagram
 Below is the circuit diagram for the project. It illustrates how the components are connected to the Arduino board:
