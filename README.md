@@ -5,22 +5,22 @@ This project demonstrates a simple yet effective smart lighting system that comb
 The code provided is written in Arduino IDE and uses basic electronic components like an LDR, PIR sensor, and an LED bulb (or relay-controlled bulb). It is designed to be beginner-friendly while showcasing practical applications of sensors in IoT-based systems.
 
 ## Features
-Motion Detection : The PIR sensor detects human movement in its range.
-Ambient Light Sensing : The LDR measures the ambient light intensity.
+Motion Detection : The PIR sensor detects human movement in its range.<br>
+Ambient Light Sensing : The LDR measures the ambient light intensity.<br>
 Smart Control Logic : 
-The bulb turns on only if: Motion is detected AND
-The ambient light level is above a defined threshold (Frequency).
-Serial Monitoring : Real-time data from the sensors is displayed on the Serial Monitor for debugging and monitoring purposes.
+The bulb turns on only if: Motion is detected AND<br>
+The ambient light level is above a defined threshold (Frequency).<br>
+Serial Monitoring : Real-time data from the sensors is displayed on the Serial Monitor for debugging and monitoring purposes.<br>
 
 ## Components Used
-The following components are used in this project:
-    Arduino Board (e.g., Arduino Uno)
-    LDR (Light Dependent Resistor) : To measure ambient light levels.
-    PIR Sensor : To detect motion.
-    LED Bulb or Relay Module : Acts as the bulb controlled by the system.
-    Resistors : 10kΩ resistor for the LDR voltage divider circuit.
-    Appropriate resistors for the PIR sensor (if needed).
-    Breadboard and Jumper Wires : For connections.
+The following components are used in this project:<br>
+   > Arduino Board (e.g., Arduino Uno)
+   > LDR (Light Dependent Resistor) : To measure ambient light levels.
+   > PIR Sensor : To detect motion.
+   > LED Bulb or Relay Module : Acts as the bulb controlled by the system.
+   > Resistors : 10kΩ resistor for the LDR voltage divider circuit.
+   > Appropriate resistors for the PIR sensor (if needed).
+   > Breadboard and Jumper Wires : For connections.
 
 ## Circuit Diagram
 Below is the circuit diagram for the project. It illustrates how the components are connected to the Arduino board:
@@ -29,18 +29,18 @@ Below is the circuit diagram for the project. It illustrates how the components 
 
 
 ## How It Works
-PIR Sensor :
-Detects motion and outputs a digital signal (HIGH or LOW) to the Arduino.
-When motion is detected, the output is HIGH.
-LDR Sensor :
-Measures the ambient light intensity using a voltage divider circuit.
-Outputs an analog value between 0 and 1023, which corresponds to the light level.
-Logic Implementation :
-If motion is detected (motion == 1) and the light level is above the threshold (light > Frequency), the bulb is turned on.
-Otherwise, the bulb remains off.
-Serial Monitor :
-Displays real-time data such as the LDR value and motion detection status for debugging.
-Code Explanation
+PIR Sensor :  
+Detects motion and outputs a digital signal (HIGH or LOW) to the Arduino.  
+When motion is detected, the output is HIGH.  
+LDR Sensor :  
+Measures the ambient light intensity using a voltage divider circuit.  
+Outputs an analog value between 0 and 1023, which corresponds to the light level.  
+Logic Implementation :  
+If motion is detected (motion == 1) and the light level is above the threshold (light > Frequency), the bulb is turned on.  
+Otherwise, the bulb remains off.  
+Serial Monitor :  
+Displays real-time data such as the LDR value and motion detection status for debugging.  
+Code Explanation  
 Key Variables:
 LDR_pin: Analog pin connected to the LDR sensor.
 PIR_pin: Digital pin connected to the PIR sensor.
