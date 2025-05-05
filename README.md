@@ -80,7 +80,7 @@ Home Automation : Automatically turn on lights in hallways, bathrooms, or baseme
 Security Systems : Illuminate areas when motion is detected at night.
 Energy Saving : Prevent unnecessary power consumption by ensuring lights are only on when needed.
 ## Future Improvements
-WiFi Connectivity : Integrate an ESP8266 or ESP32 module to enable remote monitoring and control via a smartphone app.
-Advanced Threshold Adjustment : Allow dynamic adjustment of the light threshold (Frequency) through a potentiometer or mobile app.
-Data Logging : Log sensor data to an SD card or cloud platform for analysis.
-Multi-Zone Control : Expand the system to control multiple bulbs in different zones
+WiFi Connectivity : Integrate an ESP8266 or ESP32 module to enable remote monitoring and control via a smartphone app.  
+Advanced Threshold Adjustment : Allow dynamic adjustment of the light threshold (Frequency) through a potentiometer or mobile app.  
+Data Logging : Log sensor data to an SD card or cloud platform for analysis.  
+Multi-Zone Control : Expand the system to control multiple bulbs in different zones.  
