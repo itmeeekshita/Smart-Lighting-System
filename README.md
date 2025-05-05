@@ -25,7 +25,7 @@ The following components are used in this project:<br>
 ## Circuit Diagram
 Below is the circuit diagram for the project. It illustrates how the components are connected to the Arduino board:
 
-![smart light_bb](https://github.com/user-attachments/assets/2035545d-9944-47cb-b4a2-1354c304eeec)
+<img src="https://github.com/user-attachments/assets/2035545d-9944-47cb-b4a2-1354c304eeec" alt="smart light_bb" width="600">
 
 
 
@@ -60,7 +60,7 @@ Below are images of the completed project:
 
 Prototype Setup :
 
-<img src="![prototype](https://github.com/user-attachments/assets/ec92c6f8-87c4-452f-8f5b-003055ad1b3b)" alt="Project prototype" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/ec92c6f8-87c4-452f-8f5b-003055ad1b3b" alt="prototype" width="500">
 
 
 
