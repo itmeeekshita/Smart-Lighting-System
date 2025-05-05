@@ -14,33 +14,34 @@ Serial Monitoring : Real-time data from the sensors is displayed on the Serial M
 
 ## Components Used
 The following components are used in this project:<br>
-   > Arduino Board (e.g., Arduino Uno)  
-   > LDR (Light Dependent Resistor) : To measure ambient light levels.  
-   > PIR Sensor : To detect motion.  
-   > LED Bulb or Relay Module : Acts as the bulb controlled by the system.  
-   > Resistors : 10kΩ resistor for the LDR voltage divider circuit.  
-   > Appropriate resistors for the PIR sensor (if needed).
-   > Breadboard and Jumper Wires : For connections.  
+   - Arduino Board (e.g., Arduino Uno)  
+   - LDR (Light Dependent Resistor) : To measure ambient light levels.  
+   - PIR Sensor : To detect motion.  
+   - LED Bulb or Relay Module : Acts as the bulb controlled by the system.  
+   - Resistors : 10kΩ resistor for the LDR voltage divider circuit.  
+   - Appropriate resistors for the PIR sensor (if needed).
+   - Breadboard and Jumper Wires : For connections.  
 
 ## Circuit Diagram
 Below is the circuit diagram for the project. It illustrates how the components are connected to the Arduino board:
 
+![smart light_bb](https://github.com/user-attachments/assets/2035545d-9944-47cb-b4a2-1354c304eeec)
 
 
 
 ## How It Works
-PIR Sensor :  
-Detects motion and outputs a digital signal (HIGH or LOW) to the Arduino.  
-When motion is detected, the output is HIGH.  
-LDR Sensor :  
-Measures the ambient light intensity using a voltage divider circuit.  
-Outputs an analog value between 0 and 1023, which corresponds to the light level.  
-Logic Implementation :  
-If motion is detected (motion == 1) and the light level is above the threshold (light > Frequency), the bulb is turned on.  
-Otherwise, the bulb remains off.  
-Serial Monitor :  
-Displays real-time data such as the LDR value and motion detection status for debugging.  
-Code Explanation  
+### PIR Sensor :  
+- Detects motion and outputs a digital signal (HIGH or LOW) to the Arduino.  
+- When motion is detected, the output is HIGH.  
+### LDR Sensor :  
+- Measures the ambient light intensity using a voltage divider circuit.  
+- Outputs an analog value between 0 and 1023, which corresponds to the light level.  
+### Logic Implementation :  
+- If motion is detected (motion == 1) and the light level is above the threshold (light > Frequency), the bulb is turned on.  
+- Otherwise, the bulb remains off.  
+### Serial Monitor :  
+- Displays real-time data such as the LDR value and motion detection status for debugging.  
+### Code Explanation  
 Key Variables:
 LDR_pin: Analog pin connected to the LDR sensor.
 PIR_pin: Digital pin connected to the PIR sensor.
@@ -53,14 +54,18 @@ Loop Function:
 Reads the PIR sensor and LDR sensor values.
 Implements the logic to control the bulb based on motion and light level.
 Prints sensor readings and motion status to the Serial Monitor.
+
 Images of the Project
 Below are images of the completed project:
 
 Prototype Setup :
-
-Close-Up of Connections :
+![WhatsApp Image 2025-05-04 at 8 31 19 PM](https://github.com/user-attachments/assets/3ade2cf2-ac62-41b3-abc4-3e729312542a)
 
 Final Working Model :
+
+
+https://github.com/user-attachments/assets/8b996706-c9fc-4ac7-902a-7cd86d54b0cf
+
 
 
 
@@ -68,7 +73,7 @@ Final Working Model :
 Home Automation : Automatically turn on lights in hallways, bathrooms, or basements.
 Security Systems : Illuminate areas when motion is detected at night.
 Energy Saving : Prevent unnecessary power consumption by ensuring lights are only on when needed.
-Future Improvements
+## Future Improvements
 WiFi Connectivity : Integrate an ESP8266 or ESP32 module to enable remote monitoring and control via a smartphone app.
 Advanced Threshold Adjustment : Allow dynamic adjustment of the light threshold (Frequency) through a potentiometer or mobile app.
 Data Logging : Log sensor data to an SD card or cloud platform for analysis.
