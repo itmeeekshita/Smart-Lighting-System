@@ -59,12 +59,18 @@ Images of the Project
 Below are images of the completed project:
 
 Prototype Setup :
-![WhatsApp Image 2025-05-04 at 8 31 19 PM](https://github.com/user-attachments/assets/3ade2cf2-ac62-41b3-abc4-3e729312542a)
+
+<img src="![prototype](https://github.com/user-attachments/assets/ec92c6f8-87c4-452f-8f5b-003055ad1b3b)" alt="Project prototype" width="400" height="300">
+
+
 
 Final Working Model :
 
 
-https://github.com/user-attachments/assets/8b996706-c9fc-4ac7-902a-7cd86d54b0cf
+
+
+https://github.com/user-attachments/assets/6569a1d8-bb37-4ef3-8ec2-2584b2cda9e2
+
 
 
 
