@@ -55,16 +55,16 @@ Reads the PIR sensor and LDR sensor values.
 Implements the logic to control the bulb based on motion and light level.
 Prints sensor readings and motion status to the Serial Monitor.
 
-Images of the Project
+## Images of the Project
 Below are images of the completed project:
 
-Prototype Setup :
+### Prototype Setup :
 
 <img src="https://github.com/user-attachments/assets/ec92c6f8-87c4-452f-8f5b-003055ad1b3b" alt="prototype" width="500">
 
 
 
-Final Working Model :
+### Final Working Model :
 
 
 
