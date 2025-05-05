@@ -1,0 +1,29 @@
+int LDR_pin = A0;
+int PIR_pin = 4;
+int BULB_pin = 7;
+int Frequency=550
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  pinMode(LDR_pin,INPUT);
+  pinMode(PIR_pin,OUTPUT);
+  pinMode(BULB_pin, OUTPUT);
+}
+
+void loop() {
+  int motion=digitalRead(PIR_pin);
+  int light=analogRead(LDR_pin);
+  Serial.print("LDR value: ");
+  Serial.println(light);
+  if(motion == 1){
+  Serial.println("Motion Detected");
+  }
+  else{
+    Serial.println("Motion Not Detected");
+  }
+  if(motion==1 && light>Frequency){
+    digitalWrite(BULB_pin,1);
+  }else{
+    digitalWrite(BULB_pin,0);
+  }
+}
